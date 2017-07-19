@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +11,16 @@ html {
 main {
     padding-top: 100px;
 }
+
+.row-center {
+    justify-content: center;
+}
+
+.col-center {
+    max-width: 50%;
+    text-align: center;
+}
+
 
 .navbar {
     position: fixed;
@@ -30,19 +39,39 @@ main {
     color: #f2f2f2;
     text-decoration: none;
     font-size: 20px;
-    padding-top: 25px;
-    margin-left: 25px;
+    padding: 25px;
 }
 
 .navbar a:hover {
     color: #a7c0cd;
-    transition: color 0.5s;
+    transition: color 0.2s;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.main-input {
+    color: lightblue;
+    height: 70px;
+    width: 60%;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.main-form-btn {
+    margin-top: 20px;
+    color:black;
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
 }
 
 .test {
-    background: grey;
+    background: white;
     text-decoration: none;
     color: #444;
+    border: 1px solid black;
 }
 
 .test h2 {
@@ -78,6 +107,19 @@ main {
         padding-top: 15px;
         margin-left: 25px;
     }
+    .col-center {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .main-form-btn {
+    margin-top: 20px;
+    color:black;
+    height: 50px;
+    width: 15%;
+    font-size: 16px;
+}
+
  }
 
 /* Medium screens */
@@ -86,6 +128,9 @@ main {
 }
 
 /* Large screens */
-@media all and (min-width: 800px) {
-
+@media all and (max-width: 800px) {
+        .col-center {
+        max-width: 100%;
+        text-align: center;
+    }
 }
