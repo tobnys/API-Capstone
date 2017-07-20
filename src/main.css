@@ -6,10 +6,11 @@
 html {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+    height: 100%;
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 300px;
 }
 
 .row-center {
@@ -18,9 +19,12 @@ main {
 
 .col-center {
     max-width: 50%;
-    text-align: center;
 }
 
+.col-center-t {
+    max-width: 50%;
+    text-align: center;
+}
 
 .navbar {
     position: fixed;
@@ -52,11 +56,12 @@ main {
 }
 
 .main-input {
-    color: lightblue;
+    color: black;
     height: 70px;
     width: 60%;
-    font-size: 50px;
+    font-size: 28px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .main-form-btn {
@@ -85,10 +90,35 @@ main {
 .card p {
     padding: 20px;
     font-size: 14px;
+    margin-top: -30px;
+}
+
+em {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.footer-container {
+    background-color: #37474f;
+    margin-top:300px;
+    height:200px;
+    position:relative;
+    bottom:0;
 }
 
 /* Small screens */
 @media (max-width: 575px) { 
+    main {
+        padding-top: 150px;
+    }
+
+    .current h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
     .navbar {
         position: fixed;
         background-color: #37474f;
@@ -111,8 +141,11 @@ main {
     }
     .col-center {
         max-width: 100%;
-        text-align: center;
     }
+    .col-center-t {
+    max-width: 100%;
+    text-align: center;
+}
 
     .main-form-btn {
     margin-top: 20px;
