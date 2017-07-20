@@ -3,7 +3,6 @@
     $(".current").fadeToggle(1, function(){
 
     });
-
     $(".js-main-form-btn").on("click", function(e){
         e.preventDefault();
         var searchValue = $(".js-main-input").val();
