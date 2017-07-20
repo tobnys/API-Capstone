@@ -67,20 +67,22 @@ main {
     font-size: 20px;
 }
 
-.test {
+.card {
     background: white;
     text-decoration: none;
     color: #444;
     border: 1px solid black;
+    margin: 20px;
 }
 
-.test h2 {
+.card h2 {
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.test p {
+.card p {
     padding: 20px;
     font-size: 14px;
 }
