@@ -44,11 +44,13 @@ main {
     text-decoration: none;
     font-size: 20px;
     padding: 25px;
+    transition: color 0.2s, border-bottom 0.2s;
 }
 
 .navbar a:hover {
     color: #a7c0cd;
-    transition: color 0.2s;
+    border-bottom: 5px solid #a7c0cd;
+    transition: color 0.2s, border-bottom 0.2s;
 }
 
 .navbar li {
@@ -70,6 +72,17 @@ main {
     height: 50px;
     width: 15%;
     font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.main-form-btn:hover {
+    color: #a7c0cd;
+    background-color: #37474f;  
+    transition: color 0.4s, background-color 0.4s;
 }
 
 .card {
@@ -78,6 +91,12 @@ main {
     color: #444;
     border: 1px solid black;
     margin: 20px;
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease;
 }
 
 .card h2 {
@@ -106,6 +125,36 @@ em {
     height:200px;
     position:relative;
     bottom:0;
+}
+
+.footer-container h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer-container a {
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    align-content: center;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.footer-container p {
+    padding-top: 8px;
+}
+
+.footer-container a:hover {
+    color: #a7c0cd;
+    background-color: #37474f;  
+    transition: color 0.4s, background-color 0.4s;
 }
 
 /* Small screens */

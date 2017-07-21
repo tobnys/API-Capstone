@@ -29,9 +29,9 @@
         e.preventDefault();
         $(".home").fadeOut(400, function(){
             renderCurrentWeather();
-            initiateAPI("london");
-            initiateAPI("paris");
-            initiateAPI("stockholm");
+            //initiateAPI("london");
+            //initiateAPI("paris");
+            //initiateAPI("stockholm");
         });
     });
 
