@@ -3,6 +3,8 @@
     var runThroughCurrent = 0;
     var runOnceSearch = false;
 
+    // 
+
     $(".current").fadeToggle(1);
     $(".searchInfo").fadeToggle(1);
     
@@ -135,11 +137,5 @@
     {
         $(".current-weather").fadeOut(400);
     }
-
-    function renderHTML(result)
-    {
-        console.log("Rendering HTML.");
-    }
-
 
 }());
