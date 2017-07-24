@@ -1,0 +1,11 @@
+{
+  "name": "tobnys-thinkful-capstone",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
