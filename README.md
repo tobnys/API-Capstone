@@ -5,6 +5,9 @@ This app uses the openweatherapi to display data on whatever query is sent to it
 
 This app was created as the API Capstone Project for the "Asynchronous client-side apps" curriculum at Thinkful. The project is focused around integrating an API using asynchronous calls to retrieve and display information.
 
+## Link to live version
+http://tobnys-api-capstone.herokuapp.com/
+
 ## UX
 Goal of the UX was to make the app as accessible and "big" as possible, meaning that buttons are easy to click and responsive when doing so, it should be easy and flawless to navigate around. Simplistic animations have been added on the different "cards" and buttons as well.
 
