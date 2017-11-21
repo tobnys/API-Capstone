@@ -5,8 +5,13 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    background-color: white;
-    height: 100%;
+    background: url("https://i.imgur.com/1G8lQcf.jpg");
+    background-size: cover;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #252525;
 }
 
 main {
@@ -58,6 +63,7 @@ main {
 }
 
 .main-input {
+    border-radius: 25px;
     color: black;
     height: 70px;
     width: 60%;
@@ -70,7 +76,7 @@ main {
     margin-top: 20px;
     color:black;
     height: 50px;
-    width: 15%;
+    width: 25%;
     font-size: 20px;
     color: black;
     background-color: white;
@@ -80,9 +86,15 @@ main {
 }
 
 .main-form-btn:hover {
+    cursor: pointer;
     color: #a7c0cd;
     background-color: #37474f;  
     transition: color 0.4s, background-color 0.4s;
+}
+
+#main-header {
+    color: white;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.753);
 }
 
 .card {
@@ -120,9 +132,10 @@ em {
 }
 
 .footer-container {
+    padding-top: 25px;
     background-color: #37474f;
     margin-top:300px;
-    height:200px;
+    height:150px;
     position:relative;
     bottom:0;
 }
@@ -135,6 +148,7 @@ em {
 }
 
 .footer-container a {
+    border-radius: 20px;
     font-size: 15px;
     color: black;
     background-color: white;
@@ -196,11 +210,11 @@ em {
     text-align: center;
 }
 
-    .main-form-btn {
+.main-form-btn {
     margin-top: 20px;
     color:black;
     height: 50px;
-    width: 15%;
+    width: 25%;
     font-size: 16px;
 }
 
